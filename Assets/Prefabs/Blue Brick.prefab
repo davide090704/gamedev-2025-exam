@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6320012282096023570}
   - component: {fileID: 5983148610178686023}
   m_Layer: 0
-  m_Name: Red Brick
+  m_Name: Blue Brick
   m_TagString: Destructible
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1eb3a7c455c0f5847a903032b83427d4, type: 2}
+  - {fileID: 2100000, guid: b70e9b436b889dc4a94688ad194877b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
