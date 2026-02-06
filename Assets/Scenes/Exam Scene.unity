@@ -6645,7 +6645,13 @@ MonoBehaviour:
   - {fileID: 1997959803097475662, guid: 478c30de9aa2d9d4b864aff967016a27, type: 3}
   - {fileID: 4461393043301141512, guid: 191e5af5427670e47aec3f7dc86b9b98, type: 3}
   - {fileID: 8331766238266389217, guid: e0cbedc65a314614597f0d8f2104533e, type: 3}
-  - {fileID: 1997959803097475662, guid: a076f447196a5754cb5f24347c0f9422, type: 3}
+  purpleBrickPrefab:
+  - {fileID: 1997959803097475662, guid: 68b871a8a5ae065478485ea67a6b671b, type: 3}
+  blackBrickPrefab:
+  - {fileID: 1997959803097475662, guid: 478c30de9aa2d9d4b864aff967016a27, type: 3}
+  prefabsToSpawn:
+  - {fileID: 1997959803097475662, guid: 68b871a8a5ae065478485ea67a6b671b, type: 3}
+  - {fileID: 1997959803097475662, guid: 478c30de9aa2d9d4b864aff967016a27, type: 3}
   brickSize: {x: 2, y: 1}
   maxZOffset: 0
   rowCount: 7
