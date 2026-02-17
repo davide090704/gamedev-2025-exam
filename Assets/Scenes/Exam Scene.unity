@@ -213,7 +213,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: deccb7ded010f364699fd2edea41abf3, type: 2}
+  - {fileID: 2100000, guid: c7e8b50b00833f04384e4a25e1440f69, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -753,6 +753,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 627572595011920867, guid: 6acbc2be5df88bd44ab1fff7937f4eb9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: deccb7ded010f364699fd2edea41abf3, type: 2}
     - target: {fileID: 1548510535187366266, guid: 6acbc2be5df88bd44ab1fff7937f4eb9, type: 3}
       propertyPath: m_Name
       value: Laser (2)
@@ -6060,6 +6064,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 627572595011920867, guid: 6acbc2be5df88bd44ab1fff7937f4eb9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: deccb7ded010f364699fd2edea41abf3, type: 2}
     - target: {fileID: 1548510535187366266, guid: 6acbc2be5df88bd44ab1fff7937f4eb9, type: 3}
       propertyPath: m_Name
       value: Laser (3)
@@ -6482,7 +6490,7 @@ MonoBehaviour:
   - {fileID: 4461393043301141512, guid: 191e5af5427670e47aec3f7dc86b9b98, type: 3}
   - {fileID: 8331766238266389217, guid: e0cbedc65a314614597f0d8f2104533e, type: 3}
   brickSize: {x: 2, y: 1}
-  maxZOffset: 0.5
+  maxZOffset: 0.1
   rowCount: 5
   columnCount: 10
 --- !u!1001 &2069788870
@@ -6684,6 +6692,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 627572595011920867, guid: 6acbc2be5df88bd44ab1fff7937f4eb9, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: deccb7ded010f364699fd2edea41abf3, type: 2}
     - target: {fileID: 1548510535187366266, guid: 6acbc2be5df88bd44ab1fff7937f4eb9, type: 3}
       propertyPath: m_Name
       value: Laser (1)
