@@ -1,8 +1,13 @@
+using NUnit.Framework.Constraints;
 using UnityEngine;
+using static UnityEngine.Rendering.DebugUI.Table;
 
 public class BrickSpawner : MonoBehaviour
 {
     public GameObject[] brickPrefabs;
+    public GameObject[] purpleBrickPrefab;
+    public GameObject[] blackBrickPrefab;
+    public GameObject[] prefabsToSpawn;
     public Vector2 brickSize;
     public float maxZOffset;
     public int rowCount;
@@ -10,12 +15,13 @@ public class BrickSpawner : MonoBehaviour
     public float rowSpacing;
 
     void Start()
-    {        
+    {
         
         float z = transform.position.z; // Will not change
         float y = transform.position.y; // Will change for every row of bricks
+
         for (int row = 0; row < rowCount; row++)
-        {            
+        {
             float x = transform.position.x; // Will change for every brick in a row
             for (int col = 0; col < columnCount; col++)
             {
@@ -29,3 +35,4 @@ public class BrickSpawner : MonoBehaviour
         }
     }
 }
+  
