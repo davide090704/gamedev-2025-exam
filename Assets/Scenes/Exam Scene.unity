@@ -6672,9 +6672,10 @@ MonoBehaviour:
   - {fileID: 4461393043301141512, guid: 191e5af5427670e47aec3f7dc86b9b98, type: 3}
   - {fileID: 8331766238266389217, guid: e0cbedc65a314614597f0d8f2104533e, type: 3}
   brickSize: {x: 2, y: 1}
-  maxZOffset: 0.1
+  maxZOffset: 0
   rowCount: 5
   columnCount: 10
+  rowSpacing: 0.1
 --- !u!1001 &2069788870
 PrefabInstance:
   m_ObjectHideFlags: 0

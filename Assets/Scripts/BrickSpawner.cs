@@ -6,7 +6,8 @@ public class BrickSpawner : MonoBehaviour
     public Vector2 brickSize;
     public float maxZOffset;
     public int rowCount;
-    public int columnCount;  
+    public int columnCount;
+    public float rowSpacing;
 
     void Start()
     {        
@@ -23,8 +24,8 @@ public class BrickSpawner : MonoBehaviour
                 GameObject brick = brickPrefabs[randomIndex];
                 Instantiate(brick, new Vector3(x, y, z + randomZOffset), brick.transform.rotation);
                 x += brickSize.x;
-            }            
-            y += brickSize.y;
+            }
+            y += brickSize.y + rowSpacing; // Add row spacing to prevent bricks rows from touching each other
         }
     }
 }
